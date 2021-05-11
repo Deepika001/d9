@@ -27,7 +27,8 @@ public class TestGreeter {
   @Test
   public void greetShouldIncludeGreetingPhrase() {
     String someone = "World";
-
+       System.out.println("deeprash");
+       System.out.println("finally");
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
 }
